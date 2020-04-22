@@ -1,3 +1,34 @@
+.rework {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(6, 0, 7);
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(92, 84, 94);
+    margin: 20px 0 20px 0;
+    font-size: 40px;
+}
+
+.coffe_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.coffe {
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+}
+
 body {
     margin: 0;
 }
@@ -6,6 +37,11 @@ body {
     position: fixed;
     width: 100%;
     background-color: white;
+}
+
+a {
+    color:black;
+    text-decoration: none;
 }
 
 .content {
@@ -26,9 +62,10 @@ body {
     justify-content: center;
 }
 
-.me {
-    width: 100%;
-    height: auto;
+.me {   
+    width: 400px;
+    height: 500px;
+    border-radius: 10%
 }
 
 .about {
@@ -87,6 +124,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
 }
 
 .body__ul--p {
