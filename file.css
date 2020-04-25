@@ -105,6 +105,10 @@
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
+footer p {
+    text-align: center;
+}
+
 /* ------------------------------------------------ */
 .rework {
     display: flex;
