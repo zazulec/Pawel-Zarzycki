@@ -140,6 +140,24 @@ footer p {
     width: 500px;
     height: 500px;
 }
+
+.projects {
+    display: flex;
+    color: white;
+}
+
+.projects__container{
+    flex-direction: row;
+}
+
+img {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
 /* ------------------------------ */
 body {
     margin: 0;
