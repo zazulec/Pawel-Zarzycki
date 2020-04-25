@@ -1,3 +1,9 @@
+:root {
+    --color-background: rgb(12, 12, 12);
+    --color-white: #fff;
+    --color-lightgrey: lightgray;
+}
+
 .hero {
     position: relative;
     width: 100%;
@@ -12,7 +18,6 @@
     text-align: center;
     font-size: 6rem;
     font-family: 'Montserrat', sans-serif;
-    /* background-color: white; */
     padding: 20px;
     margin: 15px;
     z-index: 1;
@@ -27,19 +32,18 @@
 }
 
 .hero__colorOverlay {
-position: absolute;
-top: 0;
-left: 0;
-background-color:lightgray; /*change on white if you want more bright in html */
-width: 100%;
-height: 100vh;
-opacity: 0.2;
-display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-lightgrey); /*change on white if you want more bright in html */
+    width: 100%;
+    height: 100vh;
+    opacity: 0.2;
 }
 
 .aboutMe {
     display: flex;
-    background-color: rgb(12, 12, 12);
+    background-color: var(--color-background);
     opacity: 0.9;
     flex-direction: column;
     align-items: center;
