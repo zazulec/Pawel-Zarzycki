@@ -52,7 +52,7 @@
 
 .aboutMe h1 {
     font-size: 3rem;
-    color: white;
+    color: var(--color-white);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -61,7 +61,7 @@
 }
 
 .aboutMe__text {
-    color: white;
+    color: var(--color-white);
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
@@ -81,7 +81,7 @@
 }
 .projects h1 {
     font-size: 3rem;
-    color: white;
+    color: var(--color-white);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@
 
 .projects__firstProject{
     font-size: 3rem;
-    color: white;
+    color: var(--color-white);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -99,15 +99,43 @@
 
 .projects__secondProject{
     font-size: 3rem;
-    color: white;
+    color: var(--color-white);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact {
+    display: flex;
+    background-color: var(--color-background);
+    opacity: 0.9;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    color: var(--color-white);
     text-align: center;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-footer p {
+.contact form {
+    color: var(--color-white);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    margin: 0;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-white);
 }
 
 /* ------------------------------------------------ */
