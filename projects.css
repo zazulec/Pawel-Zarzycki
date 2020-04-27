@@ -32,3 +32,14 @@
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+.carouselContainter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+
+}
