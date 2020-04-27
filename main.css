@@ -51,14 +51,7 @@
     flex-direction: row;
 }
 
-img {
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    height: 200px;
-    cursor: pointer;
-    border: 1px solid white
-}
+
 
 /* ------------------------------ */
 body {
