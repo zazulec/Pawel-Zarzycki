@@ -19,6 +19,7 @@
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
     <link rel='stylesheet' type="text/css" href="hero.css">
     <link rel='stylesheet' type="text/css" href="aboutMe.css">
     <link rel='stylesheet' type="text/css" href="projects.css">
@@ -34,12 +35,12 @@
 
 <body>
     <!-- REWORK DIV  -->
-    <div class='rework'>
+    <!-- <div class='rework'>
         <div class='description'>Strona w przebudowie! Zapraszam wkrótce :)</div>
         <div class='coffe_image'>
             <img class='coffe' src='assets/Kawa.jpeg' />
         </div>
-    </div>
+    </div> -->
 
     <!-- REWORK DIV -->
 
@@ -47,8 +48,15 @@
     <!-- ----------------------------------------------------------------------------------- -->
 
     <!-- CURRENT WORKING SPACE -->
-
-    <!-- <section class='hero'>
+    <header class="header">
+        <nav class='header__nav'>
+            <a href="#hero">Start</a>
+            <a href="#aboutMe">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id='hero' class='hero'>
         <h1>From Zero to HERO</h1>
         <div class="hero__videoContainer">
             <div class='hero__colorOverlay'></div>
@@ -57,7 +65,7 @@
             </video>
         </div>
     </section>
-    <section class='aboutMe'>
+    <section id='aboutMe' class='aboutMe'>
         <h1>About me</h1>
         <div class='aboutMe__text'>
             <p>
@@ -69,7 +77,7 @@
             </p>
         </div>
     </section>
-    <section class='projects'>
+    <section id='projects' class='projects'>
         <h1>Projects completed</h1>
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -105,7 +113,7 @@
             </div>
         </div>
     </section>
-    <section class='contact'>
+    <section id='contact' class='contact'>
         <h2>Contact with me</h2>
         <form action="mailto:someone@example.com" method="post" enctype="text/plain">
             <div class="form-group">
@@ -124,7 +132,7 @@
             <button type="submit" class="btn btn-secondary">Send</button>
             <button type="reset" class="btn btn-secondary">Reset</button>
         </form>
-    </section> -->
+    </section>
 
 </body>
 <footer>

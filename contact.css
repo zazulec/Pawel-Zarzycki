@@ -5,11 +5,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 50px;
 }
 
 .contact h2 {
     font-size: 3rem;
-    color: var(--color-white);
+    color: orange;
     text-align: center;
     align-items: center;
     justify-content: center;
