@@ -1,0 +1,8 @@
+footer {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-white);
+}

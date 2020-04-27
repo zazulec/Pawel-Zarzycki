@@ -17,7 +17,12 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="file.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel='stylesheet' type="text/css" href="hero.css">
+    <link rel='stylesheet' type="text/css" href="aboutMe.css">
+    <link rel='stylesheet' type="text/css" href="projects.css">
+    <link rel='stylesheet' type="text/css" href="contact.css">
+    <link rel='stylesheet' type="text/css" href="footer.css">
     <title>Portfolio Paweł Zarzycki</title>
     <link rel="icon" type="image/png" href="assets/favicon-16x16.png.ico" sizes="16x16" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -28,12 +33,12 @@
 
 <body>
     <!-- REWORK DIV  -->
-    <div class='rework'>
+    <!-- <div class='rework'>
         <div class='description'>Strona w przebudowie! Zapraszam wkrótce :)</div>
         <div class='coffe_image'>
             <img class='coffe' src='assets/Kawa.jpeg' />
         </div>
-    </div>
+    </div> -->
 
     <!-- REWORK DIV -->
 
@@ -42,7 +47,7 @@
 
     <!-- CURRENT WORKING SPACE -->
 
-    <!-- <section class='hero'>
+    <section class='hero'>
         <h1>From Zero to HERO</h1>
         <div class="hero__videoContainer">
             <div class='hero__colorOverlay'></div>
@@ -76,6 +81,39 @@
                 /* nie wyświetla się */
                 <img src='assets/TripCity app.png' />
             </a>
+            <!-- /* Karuzela */ -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/TripCity landingpage.png" class="d-block w-100" alt="TipCity landingPage">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Strona promująca aplikację TipCity</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/TripCity app.png" class="d-block w-100" alt="TripCity app">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Aplikacja Tripcity</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            <!-- /*Karuzela  -->
         </div>
     </section>
     <section class='contact'>
@@ -97,7 +135,7 @@
             <button type="submit" class="btn btn-secondary">Send</button>
             <button type="reset" class="btn btn-secondary">Reset</button>
         </form>
-    </section> -->
+    </section>
 
 </body>
 <footer>
