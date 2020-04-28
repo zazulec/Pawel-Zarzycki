@@ -9,7 +9,7 @@
 }
 .projects h1 {
     font-size: 3rem;
-    color: var(--color-white);
+    color: var(--color-heading);
     text-align: center;
     align-items: center;
     justify-content: center;
