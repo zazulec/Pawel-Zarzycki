@@ -15,25 +15,6 @@
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
-/* 
-.projects__firstProject{
-    font-size: 3rem;
-    color: var(--color-white);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.projects__secondProject{
-    font-size: 3rem;
-    color: var(--color-white);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Montserrat', sans-serif;
-} */
-
 
 .carousel {
     position: relative;
