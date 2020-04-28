@@ -18,6 +18,15 @@
 
 }
 
+.aboutMe__description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    
+}
+
 .aboutMe__text {
     color: var(--color-white);
     align-items: center;
@@ -27,4 +36,10 @@
 
 .aboutMe__text p {
     padding: 0 15px;
+}
+
+.aboutMe__photo img {
+    border-radius: 5%;
+    max-width: 300px;
+    max-height: 400px;
 }
