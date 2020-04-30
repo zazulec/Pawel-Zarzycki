@@ -6,7 +6,6 @@
     z-index: 3;
     background-color: var(--color-heading);
     opacity: 0.8;
-
 }
 
 #header__rwd-menu{
@@ -16,6 +15,7 @@
 .header__nav {
     display: none;
 }
+
 
 
 @media all and (min-width: 480px) {
@@ -48,6 +48,7 @@
         padding: 0 5px;
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5rem;
+        color: black;
 
 
     }

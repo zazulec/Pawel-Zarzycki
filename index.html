@@ -35,38 +35,34 @@
 
 <body>
     <!-- REWORK DIV  -->
-    <div class='rework'>
+    <!-- <div class='rework'>
         <div class='description'>Strona w przebudowie! Zapraszam wkrótce :)</div>
         <div class='coffe_image'>
             <img class='coffe' src='assets/Kawa.jpeg' />
         </div>
-    </div>
+    </div> -->
 
     <!-- REWORK DIV -->
 
-
-    <!-- ----------------------------------------------------------------------------------- -->
-
-    <!-- CURRENT WORKING SPACE -->
-    <!-- <header class="header">
-        <div id='header__rwd-menu'class="btn-group">
-            <button  type="button" class="btn btn-black " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Menu
+    <header class="header">
+        <div id='header__rwd-menu' class="btn-group">
+            <button type="button" class="btn btn-black " data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Menu
             </button>
             <div class="dropdown-menu dropdown-menu-right">
-              <a href='#hero'class="dropdown-item" type="button">Hero</a>
-              <a href='#aboutMe'class="dropdown-item" type="button">About me</a>
-              <a href='#projects' class="dropdown-item" type="button">Projects</a>
-              <a href='#contact' class="dropdown-item" type="button">Contact</a>
+                <a href='#hero' class="dropdown-item" type="button">Hero</a>
+                <a href='#aboutMe' class="dropdown-item" type="button">About me</a>
+                <a href='#projects' class="dropdown-item" type="button">Projects</a>
+                <a href='#contact' class="dropdown-item" type="button">Contact</a>
             </div>
-          </div>
+        </div>
         <nav class='header__nav'>
             <a href="#hero">Start</a>
             <a href="#aboutMe">About Me</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
-
     </header>
     <section id='hero' class='hero'>
         <h1>Hello! <br>Welcome to my portfolio</h1>
@@ -83,18 +79,26 @@
             <div class='aboutMe__text'>
                 <p>
                     I have been thinking about the IT industry for a long time, but due to professional commitments, I
-                    could
-                    not make the decision to change the industry before. In recent months, I have successfully completed
-                    a
-                    programming course and had knowledge at the Junior Front-end Developer level. Currently, my goal is
-                    to
-                    start work as soon as possible to use the newly learned knowledge in full-fledged projects and learn
-                    new
-                    issues.
+                    could not make the decision to change the industry before. In recent months, I have successfully completed a programming course and had knowledge at the Junior Front-end Developer level. Currently, my goal is to start work as soon as possible to use the newly learned knowledge in full-fledged projects and learn new issues.
                 </p>
             </div>
             <div class='aboutMe__photo'>
-                <img src='assets/Moje zdjęcie .jpg' alt='myPhoto' />
+                <img class='aboutMe__img' src='assets/Moje zdjęcie .jpg' alt='myPhoto' />
+            </div>
+        </div>
+        <div class='aboutMe__technologies'>
+            <h1>Technologies</h1>
+            <div class='aboutMe__technologies--img'>
+                <div class='aboutMe__technologies--imgFirstSection'>
+                    <img src='assets/htmlTransparent.png' alt="htmlLogo">
+                    <img src='assets/css3Transparent.png' alt="cssLogo">
+                    <img src='assets/JS.png' alt="jsLogo">
+                </div>
+                <div class='aboutMe__technologies--imgSecondSection'>
+                    <img src='assets/React logo.png' alt="reactLogo">
+                    <img src='assets/Redux logo.svg' alt="reduxLogo">
+                    <img src='assets/Git logo.png' alt="gitLogo">
+                </div>
             </div>
         </div>
     </section>
@@ -109,7 +113,8 @@
                 <div class="carousel-item active">
                     <a href="http://umniedziala.jfdd14.is-academy.pl/" target="_blank"
                         alt='link to Tipcity landing page'>
-                        <img src="assets/TripCity landingpage.png" class="d-block w-100" alt="TipCity landingPage">
+                        <img class='project__img' src="assets/TripCity landingpage.png" class="d-block w-100"
+                            alt="TipCity landingPage">
                     </a>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Strona promująca <br> aplikację TipCity</h5>
@@ -117,7 +122,8 @@
                 </div>
                 <div class="carousel-item" data-interval="4000">
                     <a href="http://app.umniedziala.jfdd14.is-academy.pl/" target="_blank" alt='link to Tripcity app'>
-                        <img src="assets/TripCity app.png" class="d-block w-100" alt="TripCity app">
+                        <img class='project__img' src="assets/TripCity app.png" class="d-block w-100"
+                            alt="TripCity app">
                     </a>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Aplikacja Tripcity</h5>
@@ -156,7 +162,7 @@
                 <button type="reset" class="btn btn-outline-warning">Reset</button>
             </div>
         </form>
-    </section> -->
+    </section>
 
 </body>
 <footer>
@@ -164,65 +170,3 @@
 </footer>
 
 </html>
-
-<!-- END CURRENT WORKING SPACE -->
-
-<!-- OLD CONTENT -->
-
-<!-- <header class="header">
-        <nav>
-            <ul class="nav__list">
-                <li><a href="#hero">Hero</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#tech">Tech</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="content">
-        
-        <div id="hero" class="hero">
-            <div class="hero_text">
-                <h1>From zero to HERO</h1>
-            </div>
-            
-        </div>
-       
-        <div id="about" class="about">
-            <div class="about__text">
-                Szanowni Państwo jeszcze kilka miesięcy temu pracowałem jako kierownik magazynu w Gdańskim przedsiębiorstwie produkcyjnym. Z firmą związany byłem przez osiem lat gdzie pracowałem na różnych stanowiskach. W poszukiwaniu wyzwań przeniosłem się do innej
-                firmy produkcyjnej z którą rozstałem się po jakimś czasie. Po tej przygodzie postanowiłem porzucić branżę logistyczną i przebranżowić się na Front-end developera. Obecnie znajduję się na początku ścieżki. Lecz wierzę, iż mimo początkowych
-                trudności uda mi się przezwyciężyć trudności zmiany zawodu.
-            </div>
-            <div class="about__image">
-                <img class="me" src="assets/Moje zdjęcie .jpg" alt='avatar'>
-            </div>
-        </div>
-        <div id="tech" class="tech">
-            <div class="body__div--tech">
-                <ul class="body__tech-ul">
-                    <p class="body__ul--p">
-                        Technologie w których tworzę:
-                    </p>
-                    <div class="body__div--li">
-                        <li class="body__li"><img src="assets/html.png" width="90px"> Język wykorzystywany do tworzenia i prezentowania stron internetowych www. Jest rozwinięciem języka HTML 4 i jego XML-owej odmiany (XHTML 1), opracowywane w ramach prac grupy roboczej WHATWG
-                            (Web Hypertext Application Technology Working Group) i W3C.
-                        </li>
-                        <li class="body__li"><img src="assets/css3.png" width="90px"> Język służący do opisu formy prezentacji (wyświetlania) stron WWW. CSS został opracowany przez organizację W3C w 1996 r. CSS został stworzony w celu odseparowania struktury dokumentu od
-                            formy jego prezentacji. Separacja ta zwiększa zakres dostępności witryny, zmniejsza zawiłość dokumentu, ułatwia wprowadzanie zmian w strukturze dokumentu. CSS ułatwia także zmiany w renderowaniu strony w zależności od obsługiwanego
-                            medium (ekran, palmtop, dokument w druku, czytnik ekranowy). Stosowanie zewnętrznych arkuszy CSS daje możliwość zmiany wyglądu wielu stron naraz bez ingerowania w sam kod (X)HTML, ponieważ arkusze mogą być wspólne dla wielu
-                            dokumentów.
-                        </li>
-                        <li class="body__li"><img src="assets/js.png" width="90px"> Skryptowy język programowania, stworzony przez firmę Netscape, najczęściej stosowany na stronach internetowych. Twórcą JavaScriptu jest Brendan Eich. Najczęściej spotykanym zastosowaniem języka
-                            JavaScript są strony internetowe. Skrypty te służą najczęściej do zapewnienia interakcji poprzez reagowanie na zdarzenia, walidacji danych wprowadzanych w formularzach lub tworzenia złożonych efektów wizualnych. Skrypty JavaScriptu
-                            uruchamiane przez strony internetowe mają znacznie ograniczony dostęp do komputera użytkownika. Po stronie serwera JavaScript może działać w postaci node.js lub Ringo
-                        </li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </div> -->
-
-
-<!-- OLD CONTNET -->

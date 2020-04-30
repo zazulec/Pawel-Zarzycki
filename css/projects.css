@@ -7,6 +7,7 @@
     justify-content: center;
     padding-top: 50px;
 }
+
 .projects h1 {
     font-size: 3rem;
     color: var(--color-heading);
@@ -21,17 +22,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 700px;
-    padding: 20px;
+    width: calc(100vw - 30px);
     margin: 20px auto;
+    max-width: 700px;
 
 }
 
-img {
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50%;
+}
+
+.project__img {
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 50vh;
+    width: 100%;
     cursor: pointer;
     border: 1px solid white
     
