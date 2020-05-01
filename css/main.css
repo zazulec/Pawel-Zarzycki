@@ -4,3 +4,7 @@
     --color-lightgrey: lightgray;
     --color-heading:orange;
 }
+
+html {
+    scroll-behavior: smooth;
+}
