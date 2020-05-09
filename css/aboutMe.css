@@ -56,6 +56,10 @@
         border: none;
 }
 
+.aboutMe__technologies--img-css {
+    padding: 10px ;
+}
+
 @media all and (min-width: 950px) {
 
     .aboutMe {
