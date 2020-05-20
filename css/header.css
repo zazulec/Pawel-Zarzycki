@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 3;
-    background-color: var(--color-heading);
+    background-color: var(--color-heading); 
     opacity: 0.8;
 }
 
@@ -17,7 +17,6 @@
 }
 
 
-
 @media all and (min-width: 480px) {
     .header {
         display: flex;
@@ -25,7 +24,7 @@
         justify-content: space-between;
         align-items: center;
         z-index: 3;
-        background-color: var(--color-heading);
+        background-color: var(--color-heading); 
         opacity: 0.8;
 
     }
